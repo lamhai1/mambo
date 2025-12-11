@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<title>ICOGroup - Trang chủ</title>
+
+<style>
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:"Segoe UI", Arial, sans-serif;
+}
+
+body{
+  background:#f4f7fb;
+  line-height:1.6;
+}
+
+/* TOP BAR */
+.top-bar{
+  background:linear-gradient(to right,#e60000,#ff4d4d);
+  color:white;
+  padding:10px 50px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+.top-bar a{
+  background:white;
+  color:#e60000;
+  padding:6px 18px;
+  text-decoration:none;
+  border-radius:20px;
+  font-weight:600;
+  transition:0.3s;
+}
+
+.top-bar a:hover{
+  background:#ffe6e6;
+}
+
+/* HEADER */
+.header{
+  background:#0f75bd;
+  padding:15px 50px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+.logo{
+  color:white;
+  font-size:24px;
+  font-weight:bold;
+}
+
+nav a{
+  color:white;
+  margin-left:20px;
+  text-decoration:none;
+  font-weight:500;
+}
+
+nav a:hover{
+  text-decoration:underline;
+}
+
+/* BANNER */
+.banner{
+  background:linear-gradient(to right,#0f75bd,#2ca6e0);
+  color:white;
+  text-align:center;
+  padding:90px 20px;
+}
+
+.banner h1{
+  font-size:34px;
+  margin-bottom:10px;
+}
+
+.banner p{
+  font-size:18px;
+  opacity:0.9;
+}
+
+.countries{
+  margin-top:25px;
+  font-size:18px;
+}
+
+/* CONTENT */
+.content{
+  max-width:1100px;
+  margin:auto;
+  background:white;
+  padding:50px;
+  margin-top:-50px;
+  border-radius:12px;
+  box-shadow:0 10px 30px rgba(0,0,0,0.15);
+}
+
+.content h2{
+  text-align:center;
+  margin-bottom:40px;
+  color:#0f75bd;
+}
+
+/* STATS */
+.stats{
+  display:flex;
+  justify-content:space-around;
+  flex-wrap:wrap;
+}
+
+.box{
+  width:200px;
+  background:#f4f7fb;
+  padding:25px;
+  border-radius:10px;
+  text-align:center;
+  transition:0.3s;
+  margin:10px;
+}
+
+.box:hover{
+  transform:translateY(-8px);
+  box-shadow:0 8px 20px rgba(0,0,0,0.15);
+}
+
+.box h3{
+  font-size:36px;
+  color:#ff6600;
+}
+
+/* BUTTON */
+.btn{
+  display:inline-block;
+  margin-top:25px;
+  padding:12px 28px;
+  background:#ff6600;
+  color:white;
+  border-radius:30px;
+  text-decoration:none;
+  font-weight:600;
+  transition:0.3s;
+}
+
+.btn:hover{
+  background:#e65c00;
+}
+
+/* FOOTER */
+.footer{
+  margin-top:50px;
+  background:#0f75bd;
+  color:white;
+  text-align:center;
+  padding:25px;
+}
+</style>
+</head>
+
+<body>
+
+<!-- TOP BAR -->
+<div class="top-bar">
+  <span>📞 Hotline: 0xx.xxx.xxx</span>
+  <a href="https://docs.google.com/forms/d/1BQ-wTR1a9OMI_exNNzLl0lToRMfzk-NnrHBhIJ_pLhM/edit?hl=vi" target="_blank">
+    Đăng ký tìm hiểu
+  </a>
+</div>
+
+<!-- HEADER -->
+<header class="header">
+  <div class="logo">ICOGroup</div>
+  <nav>
+    <a href="#">Trang chủ</a>
+    <a href="#duhoc">Du học</a>
+    <a href="#xkld">Xuất khẩu lao động</a>
+    <a href="https://docs.google.com/forms/d/1BQ-wTR1a9OMI_exNNzLl0lToRMfzk-NnrHBhIJ_pLhM/edit?hl=vi">
+      Đăng ký
+    </a>
+  </nav>
+</header>
+
+<!-- BANNER -->
+<section class="banner">
+  <h1>CÔNG TY CỔ PHẦN NHÂN LỰC QUỐC TẾ ICO</h1>
+  <p>DU HỌC – LAO ĐỘNG – NGOẠI NGỮ</p>
+
+  <div class="countries">
+    Nhật Bản &nbsp;&nbsp; Hàn Quốc &nbsp;&nbsp; Đài Loan &nbsp;&nbsp; Đức
+  </div>
+
+  <a href="https://docs.google.com/forms/d/1BQ-wTR1a9OMI_exNNzLl0lToRMfzk-NnrHBhIJ_pLhM/edit?hl=vi" 
+     target="_blank" class="btn">
+     Tìm hiểu thêm
+  </a>
+</section>
+
+<!-- CONTENT -->
+<section class="content" id="duhoc">
+  <h2>ICOGroup với nhiều năm hình thành & phát triển</h2>
+
+  <div class="stats">
+    <div class="box">
+      <h3>16+</h3>
+      <p>Năm kinh nghiệm</p>
+    </div>
+    <div class="box">
+      <h3>30+</h3>
+      <p>Đối tác</p>
+    </div>
+    <div class="box">
+      <h3>5000+</h3>
+      <p>Học viên</p>
+    </div>
+  </div>
+
+  <br id="xkld"><br>
+
+  <h2>Chương trình nổi bật</h2>
+  <p style="text-align:center">
+    Du học Nhật Bản, Hàn Quốc – Xuất khẩu lao động – Đào tạo ngoại ngữ
+  </p>
+
+
+  <div style="text-align:center">
+    <a href="https://docs.google.com/forms/d/1BQ-wTR1a9OMI_exNNzLl0lToRMfzk-NnrHBhIJ_pLhM/edit?hl=vi" 
+       target="_blank" class="btn">
+       Đăng ký tư vấn ngay
+    </a>
+    <br><br> 
+
+<div class="registration-form" style="max-width: 600px; margin: 40px auto; padding: 30px; border: 1px solid #ccc; border-radius: 10px; background: #fff;">
+    <h3 style="text-align: center; color: #ff6600; margin-bottom: 25px;">ĐĂNG KÝ TƯ VẤN NHANH</h3>
+    <form id="userRegistrationForm">
+        <label for="ho_ten">Họ và Tên:</label>
+        <input type="text" id="ho_ten" name="ho_ten" required style="width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #ddd; border-radius: 5px;">
+        
+        <label for="nam_sinh">Năm Sinh:</label>
+        <input type="number" id="nam_sinh" name="nam_sinh" required style="width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #ddd; border-radius: 5px;">
+
+        <label for="dia_chi">Địa Chỉ:</label>
+        <input type="text" id="dia_chi" name="dia_chi" required style="width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #ddd; border-radius: 5px;">
+
+        <label for="chuong_trinh">Chương Trình Quan Tâm:</label>
+        <select id="chuong_trinh" name="chuong_trinh" required style="width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #ddd; border-radius: 5px;">
+            <option value="Du học Nhật Bản">Du học Nhật Bản</option>
+            <option value="Du học Hàn Quốc">Du học Hàn Quốc</option>
+            <option value="Xuất khẩu lao động">Xuất khẩu lao động</option>
+            <option value="Đào tạo ngoại ngữ">Đào tạo ngoại ngữ</option>
+        </select>
+        
+        <label for="quoc_gia">Quốc Gia Muốn Đến:</label>
+        <select id="quoc_gia" name="quoc_gia" required style="width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #ddd; border-radius: 5px;">
+            <option value="Nhật Bản">Nhật Bản</option>
+            <option value="Hàn Quốc">Hàn Quốc</option>
+            <option value="Đài Loan">Đài Loan</option>
+            <option value="Đức">Đức</option>
+            <option value="Khác">Khác</option>
+        </select>
+
+        <label for="sdt">Số Điện Thoại:</label>
+        <input type="tel" id="sdt" name="sdt" required style="width: 100%; padding: 10px; margin-bottom: 25px; border: 1px solid #ddd; border-radius: 5px;">
+
+        <button type="submit" class="btn" style="width: 100%; border: none;">GỬI THÔNG TIN TƯ VẤN</button>
+        <p id="message" style="text-align: center; margin-top: 15px;"></p>
+    </form>
+</div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <p>📞 Hotline: 0xx.xxx.xxx</p>
+  <p>📍 Số 360, Phan Đình Phùng, TP Thái Nguyên</p>
+</footer>
+<script>
+    document.getElementById('userRegistrationForm').addEventListener('submit', function(event) {
+        event.preventDefault(); // Ngăn chặn form submit theo cách thông thường (tải lại trang)
+
+        const form = event.target;
+        const messageDisplay = document.getElementById('message');
+        messageDisplay.textContent = 'Đang gửi thông tin...';
+        messageDisplay.style.color = '#0f75bd';
+
+        // 1. Lấy dữ liệu từ các trường input
+        const data = {
+            ho_ten: form.ho_ten.value,
+            nam_sinh: form.nam_sinh.value,
+            dia_chi: form.dia_chi.value,
+            chuong_trinh: form.chuong_trinh.value,
+            quoc_gia: form.quoc_gia.value,
+            sdt: form.sdt.value
+        };
+
+        // 2. Địa chỉ API Backend (Chắc chắn Apache và MySQL đang chạy)
+        const apiUrl = 'http://localhost/web8s/backend_api/insert.php'; 
+
+        // 3. Gửi yêu cầu POST bằng Fetch API
+        fetch(apiUrl, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(data)
+        })
+        .then(response => {
+            // Kiểm tra xem server có trả về lỗi HTTP không (404, 500,...)
+            if (!response.ok) {
+                throw new Error('Lỗi HTTP: ' + response.status);
+            }
+            return response.json();
+        })
+        .then(apiResult => {
+            // 4. Xử lý kết quả trả về từ API PHP
+            if (apiResult.status === true) {
+                messageDisplay.textContent = '✅ Đăng ký thành công! Chúng tôi sẽ liên hệ với bạn sớm nhất.';
+                messageDisplay.style.color = 'green';
+                form.reset(); // Xóa dữ liệu trên form sau khi thành công
+            } else {
+                messageDisplay.textContent = '❌ Lỗi đăng ký: ' + apiResult.message;
+                messageDisplay.style.color = 'red';
+            }
+        })
+        .catch(error => {
+            // 5. Xử lý lỗi kết nối hoặc lỗi mạng
+            console.error('Lỗi khi gọi API:', error);
+            messageDisplay.textContent = '❌ Lỗi kết nối: Không thể gửi dữ liệu đến máy chủ (XAMPP). Vui lòng kiểm tra Apache & MySQL.';
+            messageDisplay.style.color = 'red';
+        });
+    });
+</script>
+</body>
+</html>
+
+</body>
+</html>
